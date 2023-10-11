@@ -1,19 +1,8 @@
-import Image from "next/image";
-import FrontSection from "./sections/FrontSection";
-import SponsorsSection from "./sections/SponsorsSection";
-import AboutSection from "./sections/AboutSection";
-import OutreachSection from "./sections/OutreachSection";
-import TeamSection from "./sections/TeamSection";
-
 const Index = () => {
   return (
-    <main className="font-display text-yellow bg-black">
-      <FrontSection />
-      <AboutSection />
-      <OutreachSection />
-      <TeamSection />
-      <SponsorsSection />
-    </main>
+    <div className="absolute top-0 left-0 h-screen w-full flex items-center justify-center">
+      <h1 className="text-9xl font-bold text-center">ELECTRON VOLTS</h1>
+    </div>
   );
 };
 

@@ -1,6 +1,7 @@
+import { ReactNode } from "react";
 import { Metadata } from "next";
 import { Bebas_Neue, Outfit } from "next/font/google";
-import { ReactNode } from "react";
+import NavBar from "./components/NavBar";
 import "../index.css";
 
 const bebasNeue = Bebas_Neue({
@@ -20,12 +21,17 @@ export const metadata: Metadata = {
   description: "",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${bebasNeue.variable} ${outfit.variable}`}>
-        {children}
+      <body className={`${bebasNeue.variable} ${outfit.variable} bg-black`}>
+        <NavBar />
+        <main className="font-display text-yellow container mx-auto px-16 pt-48 min-h-screen">
+          {children}
+        </main>
       </body>
     </html>
   );
-}
+};
+
+export default Layout;
