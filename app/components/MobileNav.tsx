@@ -29,27 +29,52 @@ const MobileNav = () => {
             exit={{ opacity: 0 }}
           >
             <ul className="flex h-screen flex-col items-center justify-center gap-8 text-gold">
-              <Link href="/" className="text-yellow text-xl font-display">
+              <Link
+                href="/"
+                className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
+              >
                 EV7393
               </Link>
-              <Link href="about" className="text-yellow text-xl font-display">
+              <Link
+                href="about"
+                className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
+              >
                 ABOUT
               </Link>
               <Link
-                href="portfolio"
+                href="outreach"
                 className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
               >
-                PORTFOLIO
+                OUTREACH
               </Link>
-              <Link href="awards" className="text-yellow text-xl font-display">
+              <Link
+                href="tech"
+                className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
+              >
+                TECH
+              </Link>
+              <Link
+                href="awards"
+                className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
+              >
                 AWARDS
               </Link>
-              <Link href="team" className="text-yellow text-xl font-display">
+              <Link
+                href="team"
+                className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
+              >
                 TEAM
               </Link>
               <Link
                 href="sponsors"
                 className="text-yellow text-xl font-display"
+                onClick={() => toggleOpen()}
               >
                 SPONSORS
               </Link>

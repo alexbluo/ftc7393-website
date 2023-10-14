@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Metadata } from "next";
-import { Bebas_Neue, Outfit } from "next/font/google";
+import { Bebas_Neue, Lato,  } from "next/font/google";
 import NavBar from "./components/NavBar";
 import "../index.css";
 
@@ -10,10 +10,10 @@ const bebasNeue = Bebas_Neue({
   variable: "--bebas-neue",
 });
 
-const outfit = Outfit({
+const lato = Lato({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--outfit",
+  variable: "--lato",
 });
 
 export const metadata: Metadata = {
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${bebasNeue.variable} ${outfit.variable} bg-black`}>
+      <body className={`${bebasNeue.variable} ${lato.variable} bg-black`}>
         <NavBar />
-        <main className="font-display text-yellow container mx-auto px-16 pt-48 min-h-screen">
+        <main className="font-display text-yellow container mx-auto px-16 pt-36 min-h-screen">
           {children}
         </main>
       </body>

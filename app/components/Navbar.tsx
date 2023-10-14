@@ -11,8 +11,11 @@ const NavBar = () => {
         <Link href="about" className="text-yellow text-xl font-display">
           ABOUT
         </Link>
-        <Link href="portfolio" className="text-yellow text-xl font-display">
-          PORTFOLIO
+        <Link href="outreach" className="text-yellow text-xl font-display">
+          OUTREACH
+        </Link>
+        <Link href="tech" className="text-yellow text-xl font-display">
+          TECH
         </Link>
         <Link href="awards" className="text-yellow text-xl font-display">
           AWARDS

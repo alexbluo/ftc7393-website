@@ -12,7 +12,7 @@ module.exports = {
     },
     fontFamily: {
       display: "var(--bebas-neue)",
-      body: "var(--outfit)",
+      body: "var(--lato)",
     },
   },
   plugins: [],
