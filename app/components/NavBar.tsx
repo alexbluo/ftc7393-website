@@ -8,9 +8,6 @@ const NavBar = () => {
         <Link href="/" className="text-yellow text-xl font-display">
           EV7393
         </Link>
-        <Link href="about" className="text-yellow text-xl font-display">
-          ABOUT
-        </Link>
         <Link href="outreach" className="text-yellow text-xl font-display">
           OUTREACH
         </Link>

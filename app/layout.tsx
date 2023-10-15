@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { Bebas_Neue, Lato,  } from "next/font/google";
 import NavBar from "./components/NavBar";
 import "../index.css";
+import Footer from "./components/Footer";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
         <main className="font-display text-yellow container mx-auto px-16 pt-36 min-h-screen">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

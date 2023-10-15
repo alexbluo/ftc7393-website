@@ -37,13 +37,6 @@ const MobileNav = () => {
                 EV7393
               </Link>
               <Link
-                href="about"
-                className="text-yellow text-xl font-display"
-                onClick={() => toggleOpen()}
-              >
-                ABOUT
-              </Link>
-              <Link
                 href="outreach"
                 className="text-yellow text-xl font-display"
                 onClick={() => toggleOpen()}
