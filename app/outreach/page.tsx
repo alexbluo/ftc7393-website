@@ -6,28 +6,36 @@ const Outreach = () => {
       <h2 className="text-7xl font-display text-yellow">OUTREACH</h2>
 
       <div className="flex flex-col gap-24 w-full items-center">
-        <Bit path="/logo.png">
-          Electron Volts is a community team located in Silver Spring, MD
-          composed of both homeschool and public school students ranging from
-          9th to 12th grade. We began FTC in 2013 and take pride in our ability
-          to maintain a balance between a cohesive laid-back group of friends
-          and an ambitious team that takes what we love seriously. We strive to
-          learn as much as we can about STEM and the engineering process and to
-          spread that love for learning throughout and outside of the FIRST
-          community while making sure to uphold gracious professionalism in
-          everything we do.
+        <Bit path="/outreach_scrimmage_oct2023.jpg">
+	We ran an early season scrimmage with 70 people at APL.
+	</Bit>
+        <Bit path="/outreach_dart_watch.jpg">
+	We watched the DART impact together in October 2022.
+	</Bit>
+        <Bit path="/outreach_sugo1.jpg">
+	We did a fun robotics workshop using SuGO kits in March 2023.
+	</Bit>
+        <Bit path="/outreach_robot_repair.jpg">
+	At the qualifier we hosted, we also set up a robot repair station.
+	</Bit>
+        <Bit path="/outreach_STEM_night.jpg">
+	We brought multiple robots to STEM night at an elementary school.
+	</Bit>
+        <Bit path="/outreach_APC_visit.jpg">
+	We visited and learned about Allied Power and Control, one of our sponsors, and a place where one of our alumni works. they make machined parts for us!
+	</Bit>
+        <Bit path="/outreach_AMT.png">
+	We gave a Shrk-Tank-sylte pitch for sponsorship at the Association of Manufacturing Technologyu in April 2023.
         </Bit>
-        <Bit path="/logo.png">
-          Electron Volts is a community team located in Silver Spring, MD
-          composed of both homeschool and public school students ranging from
-          9th to 12th grade. We began FTC in 2013 and take pride in our ability
-          to maintain a balance between a cohesive laid-back group of friends
-          and an ambitious team that takes what we love seriously. We strive to
-          learn as much as we can about STEM and the engineering process and to
-          spread that love for learning throughout and outside of the FIRST
-          community while making sure to uphold gracious professionalism in
-          everything we do.
+        <Bit path="/outreach_BAE.png">
+	We met with engineers at BAE systems, and they showed us a 3D virtaul development environment and we told them about our team and gave them a robot demo.
         </Bit>
+        <Bit path="/outreach_MTI_volunteer.jpg">
+	We volunteered for the second year in a row at the Maryland Tech Invitational, a very prestigious tournament at the same venue where we hosted our qualifier.
+        </Bit>
+	<Bit path="/outreach_sri_at_DC.jpg">
+	One of our alumni volunteering at a Qualifier in DC thourhg the FIRST Chesapeake Alumni Ambassador program.
+	</Bit>
       </div>
     </div>
   );
