@@ -3,10 +3,6 @@
 ### Installation
 
 - Install [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads)
-- Install [Visual Studio Code](https://code.visualstudio.com/download)
-- In your terminal, `cd` into your preferred directory
-- Run `git clone https://github.com/alexbluo/shenderov-lab.git`
-- `cd shenderov-lab`
 - Run `npm i -g yarn` to install the Yarn package manager
 
 ### Running Locally
@@ -23,36 +19,3 @@
 - `git commit -m "[MESSAGE]"`
 - `git pull`
 - `git push`
-
-## Editing Research Section Content
-
-### Adding Images
-
-- Add the image to the `public` directory
-- Images without a 16/9 aspect ratio will face the black bars of doom
-- Navigate to `components/ResearchSection.tsx`
-- `researchImages = [{src: "/NAME_OF_IMAGE_FILE.extension", alt: "DESCRIPTION_OF_IMAGE", ...]`
-
-### Adding Text
-
-- Navigate to components/ResearchSection.tsx
-- Add a text block with `<ResearchText>{BODY_TEXT}</ResearchText>`
-
-## Adding a Team Member
-
-- Add the team member's picture to the `public` directory
-- Images without a square aspect ratio will be clipped; manually crop the image if it doesn't show up centered
-- Navigate to components/TeamSection.tsx
-- Add the team member with `<TeamMember name="name" src="/NAME_OF_IMAGE_FILE.extension">{MODAL_TEXT}</TeamMember>`
-
-## Adding Slides to the Lab Gallery
-
-- Add the image to the `public` directory
-- Navigate to components/Gallery.tsx
-- Add the slide with `<Slide src="/NAME_OF_IMAGE_FILE.extension" alt="DESCRIPTION_OF_IMAGE" />`
-
-## Creating a News Block
-
-- Navigate to `components/NewsSection.tsx`
-- Add the news block with `<NewsBlock headline="HEADLINE" date="DATE">{BODY_TEXT}</NewsBlock>`
-- Keep the number of News blocks at a maximum of 6
