@@ -5,7 +5,7 @@ import Season from "./Season";
 const Awards = () => {
   return (
     <div className="">
-      <h2 className="text-7xl font-display text-yellow">RECENT REWARDS</h2>
+      <h2 className="text-7xl font-display text-yellow">RECENT AWARDS</h2>
 
       <div className="flex flex-col gap-24">
         <Season name="2023: PowerPlay">
@@ -27,7 +27,7 @@ const Awards = () => {
     	  />
     	  <Award
     	    event = "FIRST Chesapeake Union Bridge Qualifier"
-    	    award = "Willing Alliance"
+    	    award = "Winning Alliance"
     	  />
     	  <Award
             event = "FIRST Chesapeake DC2 Qualifier"

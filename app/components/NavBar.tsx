@@ -17,9 +17,9 @@ const NavBar = () => {
         <Link href="awards" className="text-yellow text-xl font-display">
           AWARDS
         </Link>
-        <Link href="team" className="text-yellow text-xl font-display">
+        {/* <Link href="team" className="text-yellow text-xl font-display">
           TEAM
-        </Link>
+        </Link> */}
         <Link href="sponsors" className="text-yellow text-xl font-display">
           SPONSORS
         </Link>

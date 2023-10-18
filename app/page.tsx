@@ -1,6 +1,4 @@
-// TODO: add logo
 import Image from "next/image";
-import Bit from "./components/Bit";
 
 const Index = () => {
   return (
@@ -14,7 +12,7 @@ const Index = () => {
       <div className="relative w-[36rem] aspect-video">
         <Image src="/team_at_worlds_2023.jpg" alt="worlds team" fill />
       </div>
-      <p className="w-[36rem]">
+      <p className="w-[36rem] font-body">
         Electron Volts is a community team located in Silver Spring, MD composed
         of both homeschool and public school students ranging from 9th to 12th
         grade. We began FTC in 2013 and take pride in our ability to maintain a

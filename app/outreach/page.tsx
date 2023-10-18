@@ -28,7 +28,7 @@ const Outreach = () => {
         </Bit>
         <Bit path="/outreach_AMT.png">
           We gave a Shark Tank style pitch for sponsorship at the Association of
-          Manufacturing Technologyu in April 2023.
+          Manufacturing Technology in April 2023.
         </Bit>
         <Bit path="/outreach_BAE.png">
           We met with engineers at BAE systems, and they showed us a 3D virtual

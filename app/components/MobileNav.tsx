@@ -57,13 +57,13 @@ const MobileNav = () => {
               >
                 AWARDS
               </Link>
-              <Link
+              {/* <Link
                 href="team"
                 className="text-yellow text-xl font-display"
                 onClick={() => toggleOpen()}
               >
                 TEAM
-              </Link>
+              </Link> */}
               <Link
                 href="sponsors"
                 className="text-yellow text-xl font-display"
