@@ -21,7 +21,7 @@ const Outreach = () => {
       We hosted a qualifier at APL in order to provide 28 teams the opportunity to compete, and 3 additional slots to advance to regionals.
       At the competition, our team members helped out with field reset, queuing, inspection, and even emceeing!
       Additionally, we set up a robot repair station as we did last year in order to help out teams.
-      We helped 15+ teams debug hardware and software issues.
+      We helped over 15 teams debug hardware and software issues.
       </Bit>
       <Bit path="/outreach_atholton.png">
       We were invited to Atholton Elementry school and had a constant line of kids wanting to drive our outreach robot. 
