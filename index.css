@@ -7,3 +7,6 @@
     @apply text-7xl font-display text-yellow text-center pb-12;
   }
 }
+a[href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf"] {
+  color: inherit;
+}
