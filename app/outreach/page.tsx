@@ -48,7 +48,7 @@ const Outreach = () => {
       robotic parts, and team registration fees.
       We were able to secure a $1500 grant. 
         </Bit>
-      < Bit path="/outreach_sugo2.png">
+      <Bit path="/outreach_sugo2.png">
       Our team organized a complimentary SuGO workshop at a local library, offering kids the chance to construct their own Lego
       robots from scratch. Participants engaged in a thrilling head-to-head bracket-style tournament,
       igniting their enthusiasm for robotics. 
@@ -64,7 +64,7 @@ const Outreach = () => {
           sponsors and a place where one of our alumni works. They make machined
           parts for us!
         </Bit>
-      < Bit path="/outreach_teach_sugo.png">
+      <Bit path="/outreach_teach_sugo.png">
       We conducted a workshop on organizing a SuGO workshop outreach initiatives, emphasizing fundraising and community engagement to generate interest in robotics.
         </Bit>
         <Bit path="/outreach_APL.png">
