@@ -7,12 +7,23 @@ const Outreach = () => {
 
       <div className="flex flex-col gap-24 w-full items-center">
       
-        <Bit path="/outreach_dassault.jpg">
+      < Bit path="/outreach_teach_sugo.png">
+      We conducted a workshop on organizing a SuGO workshop outreach initiatives, emphasizing fundraising and community engagement to generate interest in robotics.
+        </Bit>
+        <Bit path="/outreach_APL.png">
+        Families and children enjoyed engaging with our robots from the previous season, Powerplay, newly built Tic-Tac-Toe robots, and SUGO bots.
+        </Bit>
+        <Bit path="/outreach_MTI_volunteer.jpg">
+          We volunteered for the second year in a row at the Maryland Tech
+          Invitational, a very prestigious tournament at the same venue where we
+          hosted our qualifier.
+        </Bit>
+        <Bit path="/outreach_dassault.png">
         We met with engineers and managers from Dassault Systems - they make the CAD software we use. 
         We wanted to learn how to use the new system they have for shared, online projects. 
         They helped us get set up with their 3D Experience system for Solidworks, and also to import our parts library from last year.
         </Bit>
-        <Bit path="/outreach_river_hill.jpg">
+        <Bit path="/outreach_river_hill.png">
         The team showcased its projects and demonstrated the robot at River Hill High School.
         </Bit>
 
@@ -44,11 +55,6 @@ const Outreach = () => {
           We met with engineers at BAE systems, and they showed us a 3D virtual
           development environment and we told them about our team and gave them
           a robot demo.
-        </Bit>
-        <Bit path="/outreach_MTI_volunteer.jpg">
-          We volunteered for the second year in a row at the Maryland Tech
-          Invitational, a very prestigious tournament at the same venue where we
-          hosted our qualifier.
         </Bit>
         <Bit path="/outreach_sri_at_DC.jpg">
           One of our alumni volunteering at a Qualifier in DC through the FIRST
