@@ -6,6 +6,16 @@ const Outreach = () => {
       <h2 className="text-7xl font-display text-yellow">OUTREACH</h2>
 
       <div className="flex flex-col gap-24 w-full items-center">
+      
+        <Bit path="/outreach_dassault.jpg">
+        We met with engineers and managers from Dassault Systems - they make the CAD software we use. 
+        We wanted to learn how to use the new system they have for shared, online projects. 
+        They helped us get set up with their 3D Experience system for Solidworks, and also to import our parts library from last year.
+        </Bit>
+        <Bit path="/outreach_river_hill.jpg">
+        The team showcased its projects and demonstrated the robot at River Hill High School.
+        </Bit>
+
         <Bit path="/outreach_scrimmage_oct2023.jpg">
           We ran an early season scrimmage with 70 people at APL.
         </Bit>
