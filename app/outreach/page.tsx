@@ -27,7 +27,7 @@ const Outreach = () => {
       robotic parts, and team registration fees.
       We were able to secure a $1500 grant. 
         </Bit>
-      < Bit path="/outreach_teach_sugo2.png">
+      < Bit path="/outreach_sugo2.png">
       Our team organized a complimentary SuGO workshop at a local library, offering kids the chance to construct their own Lego
       robots from scratch. Participants engaged in a thrilling head-to-head bracket-style tournament,
       igniting their enthusiasm for robotics. 
