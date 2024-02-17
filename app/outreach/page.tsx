@@ -5,9 +5,30 @@ const Outreach = () => {
     <div className="">
       <h2 className="text-7xl font-display text-yellow">OUTREACH</h2>
       <div className="flex flex-col gap-24 w-full items-center">
+      <Bit path="/outreach_neighbor.png">
+      We gave our coaches' neighbors our presentation and showed off our robot, celebrating getting to worlds!
+      They had a lot of fun seeing everything.
+      </Bit>
+      <Bit path="/outreach_scrimmage.png">
+      We recently hosted a pre-regionals scrimmage with FTC Teams Metal Pipe, S.T.A.T.I.C., and Spiderbyte.
+      This gave the teams a chance to test their design changes as well as get more experience driving.
+      </Bit>
+      <Bit path="/outreach_judges.png">
+      We met with Chunlei Liu, a judge who recently volunteered for the first time.
+      We got useful feedback from a new judge to help us clearly communicate our season to the judges!
+      </Bit>
+      <Bit path="/outreach_APL_qual.png">
+      We hosted a qualifier at APL in order to provide 28 teams the opportunity to compete, and 3 additional slots to advance to regionals.
+      At the competition, our team members helped out with field reset, queuing, inspection, and even emceeing!
+      Additionally, we set up a robot repair station as we did last year in order to help out teams.
+      We helped 15+ teams debug hardware and software issues.
+      </Bit>
+      <Bit path="/outreach_atholton.png">
+      We were invited to Atholton Elementry school and had a constant line of kids wanting to drive our outreach robot. 
+      </Bit>
       <Bit path="/outreach_IIT.png">
       we hosted a stand at the panIIT 2024 global conference, where we reached out to over 1500 panIIT alumni over the course of 10 hours.
-        </Bit>
+      </Bit>
       <Bit path="/outreach_sugo3.png">
       We visited a local scout troop to showcase what you learn as part of the FIRST community,
       getting the members interested in their possible future in STEM and FIRST! We demonstrated our robot and
