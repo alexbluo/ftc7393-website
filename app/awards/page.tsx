@@ -8,7 +8,7 @@ const Awards = () => {
       <h2 className="text-7xl font-display text-yellow">RECENT AWARDS</h2>
 
       <div className="flex flex-col gap-24">
-		<link>https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf</link>
+	  <a href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf">Award Descriptions</a>
 	  <Season name="2024: CenterStage">
     	  <Award
     	    event = "FIRST Chesapeake Regional Championship"
