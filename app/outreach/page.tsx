@@ -35,7 +35,7 @@ const Outreach = () => {
       <Bit path="/outreach_scrimmage_oct2023.jpg">
           We ran an early season scrimmage with 70 people at APL.
         </Bit>
-      <Bit path="/outreach_why_turret.jpg">
+      <Bit path="/outreach_why_turret.png">
           Our team gave an hour-long presentation to Mechanical Paradox alumni about our robot strategy and design, and gained useful insight on hardware concerns and solutions for our upcoming robot.
       </Bit>
       <Bit path="/outreach_APC_visit.jpg">
