@@ -6,7 +6,7 @@ const Awards = () => {
   return (
     <div className="">
       <h2 className="text-7xl font-display text-yellow">RECENT AWARDS</h2>
-      <a className="text-7xl font-display text-yellow" href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf">Click here for Award Descriptions</a>
+      <a className="text-3xl font-display text-blue" href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/award-descriptions.pdf">Click here for Award Descriptions</a>
 	
 	  <div className="flex flex-col gap-24">
 	  <Season name="2024: CenterStage">
