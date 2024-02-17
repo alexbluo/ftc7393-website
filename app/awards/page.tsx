@@ -8,6 +8,36 @@ const Awards = () => {
       <h2 className="text-7xl font-display text-yellow">RECENT AWARDS</h2>
 
       <div className="flex flex-col gap-24">
+	  <Season name="2024: CenterStage">
+    	  <Award
+    	    event = "FIRST Chesapeake Regional Championship"
+    	    award = "Inspire Award (1st place)"
+    	  />
+    	  <Award
+    	    event = "FIRST Chesapeake Laurel Qualifier"
+    	    award = "Finalist Alliance - Captain"
+    	  />
+    	  <Award
+    	    event = "FIRST Chesapeake Laurel Qualifier"
+    	    award = "Inspire Award (1st Place)"
+    	  />
+		  <Award
+    	    event = "FIRST Chesapeake DC Qualifier"
+    	    award = "Inspire Award 3rd Place"
+    	  />
+		  <Award
+    	    event = "FIRST Chesapeake DC Qualifier"
+    	    award = "Think Award 3rd Place"
+    	  />
+		  <Award
+    	    event = "FIRST Chesapeake DC Qualifier"
+    	    award = "Control Award 3rd Place"
+    	  />
+		  <Award
+    	    event = "FIRST Chesapeake DC Qualifier"
+    	    award = "Design Award 3rd Place"
+    	  />
+    	</Season>
         <Season name="2023: PowerPlay">
     	  <Award
     	    event = "Worlds"
