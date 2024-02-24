@@ -6,7 +6,7 @@ const Outreach = () => {
       <h2 className="text-7xl font-display text-yellow">OUTREACH</h2>
       <div className="flex flex-col gap-24 w-full items-center">
       <Bit path="/outreach_neighbor.png">
-      We gave our coaches' neighbors our presentation and showed off our robot, celebrating getting to worlds!
+      We gave our coaches&apos; neighbors our presentation and showed off our robot, celebrating getting to worlds!
       They had a lot of fun seeing everything.
       </Bit>
       <Bit path="/outreach_scrimmage.png">
