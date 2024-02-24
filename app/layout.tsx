@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 import { Metadata } from "next";
-import { Bebas_Neue, Lato,  } from "next/font/google";
+import { Bebas_Neue, Lato } from "next/font/google";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import "../index.css";
-import Footer from "./components/Footer";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -25,7 +25,9 @@ export const metadata: Metadata = {
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
-      <body className={`${bebasNeue.variable} ${lato.variable} bg-black`}>
+      <body
+        className={`${bebasNeue.variable} ${lato.variable} bg-black`}
+      >
         <NavBar />
         <main className="font-display text-yellow container mx-auto px-16 pt-36 min-h-screen">
           {children}

@@ -1,16 +1,24 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Index = () => {
   return (
     <div className=" w-full flex flex-col gap-6 items-center justify-center">
       <div className="relative w-64 aspect-[6591/7542]">
-        <Image src="/logo.png" alt="logo" fill objectFit="contain" />
+        <Image
+          src="/logo.png"
+          alt="logo"
+          style={{
+            objectFit: "contain",
+          }}
+          fill
+        />
       </div>
       <h1 className="text-7xl md:text-9xl font-bold text-center">
         ELECTRON VOLTS
       </h1>
       <div className="relative w-[36rem] aspect-video">
-        <Image src="/team_at_worlds_2023.jpg" alt="worlds team" fill />
+        <Image src="/team.jpg" alt="worlds team" fill />
       </div>
       <p className="w-[36rem] font-body">
         Electron Volts is a community team located in Silver Spring, MD composed

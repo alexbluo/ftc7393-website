@@ -9,7 +9,14 @@ const Bit = ({ path, children }: Props) => {
   return (
     <div className="flex flex-col gap-6 max-w-[36rem] w-full">
       <div className="relative aspect-video overflow-hidden rounded-xl">
-        <Image src={path} alt={children || ""} objectFit="contain" fill />
+        <Image
+          src={path}
+          alt={children || ""}
+          style={{
+            objectFit: "contain",
+          }}
+          fill
+        />
       </div>
       <p className="font-body text-center">{children}</p>
     </div>

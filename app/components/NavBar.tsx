@@ -23,12 +23,6 @@ const NavBar = () => {
         <Link href="sponsors" className="text-yellow text-xl font-display">
           SPONSORS
         </Link>
-        <Link href="https://github.com/FTC7393/FtcRobotController" className="text-yellow text-xl font-display">
-          GITHUB
-        </Link>
-        <Link href="https://www.flipcause.com/secure/cause_pdetails/MTk3Mzcy" className="text-yellow text-xl font-display">
-          DONATE
-        </Link>
       </ul>
 
       <MobileNav />
