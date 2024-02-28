@@ -17,8 +17,13 @@ const Index = () => {
       <h1 className="text-7xl md:text-9xl font-bold text-center">
         ELECTRON VOLTS
       </h1>
-      <div className="relative w-[36rem] aspect-video">
-        <Image src="/team.jpg" alt="worlds team" fill />
+      <div className="relative max-w-[36rem] w-[36rem] aspect-video">
+        <Image
+          src="/team.jpg"
+          alt="worlds team"
+          style={{ objectFit: "contain" }}
+          fill
+        />
       </div>
       <p className="w-[36rem] font-body">
         Electron Volts is a community team located in Silver Spring, MD composed
