@@ -5,6 +5,9 @@ const Outreach = () => {
     <div className="">
       <h2 className="text-7xl font-display text-yellow">OUTREACH</h2>
       <div className="flex flex-col gap-24 w-full items-center">
+      <Bit path="/outreach_IIT.png">
+      we hosted a stand at the panIIT 2024 global conference, where we reached out to over 1500 panIIT alumni over the course of 10 hours.
+      </Bit>
       <Bit path="/outreach_neighbor.png">
       We gave our coaches&apos; neighbors our presentation and showed off our robot, celebrating getting to worlds!
       They had a lot of fun seeing everything.
@@ -26,9 +29,7 @@ const Outreach = () => {
       <Bit path="/outreach_atholton.png">
       We were invited to Atholton Elementry school and had a constant line of kids wanting to drive our outreach robot. 
       </Bit>
-      <Bit path="/outreach_IIT.png">
-      we hosted a stand at the panIIT 2024 global conference, where we reached out to over 1500 panIIT alumni over the course of 10 hours.
-      </Bit>
+      <!-- IIT thing is here lol, moved cause India people :p -->
       <Bit path="/outreach_sugo3.png">
       We visited a local scout troop to showcase what you learn as part of the FIRST community,
       getting the members interested in their possible future in STEM and FIRST! We demonstrated our robot and
