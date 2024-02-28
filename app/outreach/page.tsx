@@ -29,7 +29,6 @@ const Outreach = () => {
       <Bit path="/outreach_atholton.png">
       We were invited to Atholton Elementry school and had a constant line of kids wanting to drive our outreach robot. 
       </Bit>
-      <!-- IIT thing is here lol, moved cause India people :p -->
       <Bit path="/outreach_sugo3.png">
       We visited a local scout troop to showcase what you learn as part of the FIRST community,
       getting the members interested in their possible future in STEM and FIRST! We demonstrated our robot and
