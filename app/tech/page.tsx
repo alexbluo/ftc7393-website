@@ -8,6 +8,7 @@ const Tech = () => {
       <h2 className="text-7xl font-display text-yellow">TECH</h2>
 
       <div className="flex flex-col gap-24 w-full items-center">
+        <Bit path="/chimera_poster.png">This year&apos;s robot design</Bit>
         <Bit path="/robot_diagram.png">Last year&apos;s robot design</Bit>
       </div>
     </div>
